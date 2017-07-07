@@ -1,0 +1,8 @@
+com\mycompany\myproject\UpdateInfoInterface.class
+com\mycompany\myproject\imp\AccessToken.class
+com\mycompany\myproject\package-info.class
+com\mycompany\myproject\TECInterface.class
+com\mycompany\myproject\impl\filters\LoggingFilter.class
+com\mycompany\myproject\imp\XIeCommerce3RQ.class
+com\mycompany\myproject\AccessTokenInterface.class
+com\mycompany\myproject\imp\XIeCommerce3RS.class

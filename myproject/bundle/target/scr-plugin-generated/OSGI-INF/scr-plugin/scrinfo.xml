@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="com.mycompany.myproject.impl.filters.LoggingFilter">
+        <implementation class="com.mycompany.myproject.impl.filters.LoggingFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.ranking" type="Integer" value="-700" private="false"/>
+        <property name="sling.filter.scope" value="REQUEST" private="false"/>
+        <property name="service.pid" value="com.mycompany.myproject.impl.filters.LoggingFilter" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.mycompany.myproject.imp.AccessToken">
+        <implementation class="com.mycompany.myproject.imp.AccessToken"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/paymetric/token" private="false"/>
+        <property name="sling.servlet.methods" value="POST" private="false"/>
+        <property name="service.pid" value="com.mycompany.myproject.imp.AccessToken" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.mycompany.myproject.imp.XIeCommerce3RQ">
+        <implementation class="com.mycompany.myproject.imp.XIeCommerce3RQ"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/services/XIeCommerce3RQ" private="false"/>
+        <property name="sling.servlet.methods" value="POST" private="false"/>
+        <property name="service.pid" value="com.mycompany.myproject.imp.XIeCommerce3RQ" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.mycompany.myproject.imp.XIeCommerce3RS">
+        <implementation class="com.mycompany.myproject.imp.XIeCommerce3RS"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/services/XIeCommerce3RS" private="false"/>
+        <property name="sling.servlet.methods" value="POST" private="false"/>
+        <property name="service.pid" value="com.mycompany.myproject.imp.XIeCommerce3RS" private="false"/>
+    </scr:component>
+</components>
