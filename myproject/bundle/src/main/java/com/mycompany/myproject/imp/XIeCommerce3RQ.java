@@ -68,8 +68,8 @@ public class XIeCommerce3RQ extends SlingAllMethodsServlet{
 		PostPacket postPacket = new PostPacket(site + "/services/XIeCommerce3RS");
 		logger.info("***********************************************"+postPacket);
 		
-		out.print(postPacket.toString());
-		out.println("Hello World");
+		out.println(postPacket.toString());
+		out.println("Hello World 1");
 		
 	    AccessTokenResponsePacket accessTokenResponsePacket = AccessTokenUtility.GetPostAccessToken(strGUID, strPSK, strURL, postPacket);
 	   if (!(accessTokenResponsePacket.getRequestError() + "").equals("null")) {
