@@ -37,11 +37,11 @@
    
     <dependencies>
     <!-- local dependency -->
-	    <dependency>
+	   <!-- <dependency>
 		    <groupId>com.cg.te</groupId>
 		  	<artifactId>teconnectivity</artifactId>
 		    <version>1.0</version>
-		 </dependency>
+		 </dependency>-->
 	 <!-- -->
     <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
 <dependency>
