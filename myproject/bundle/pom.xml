@@ -21,11 +21,11 @@
  
   <dependencies>
   
- <!-- <dependency>
+  <dependency>
 	    <groupId>com.cg.te</groupId>
 	  	<artifactId>teconnectivity</artifactId>
 	        <version>1.0</version>
-	    </dependency>-->
+	    </dependency>
   <dependency>
 <groupId>com.googlecode.json-simple</groupId>
 <artifactId>json-simple</artifactId>
