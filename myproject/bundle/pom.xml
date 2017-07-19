@@ -24,6 +24,7 @@
   <dependency>
 	    <groupId>com.cg.te</groupId>
 	  	<artifactId>teconnectivity</artifactId>
+	        <version>1.0</version>
 	    </dependency>
   <dependency>
 <groupId>com.googlecode.json-simple</groupId>
