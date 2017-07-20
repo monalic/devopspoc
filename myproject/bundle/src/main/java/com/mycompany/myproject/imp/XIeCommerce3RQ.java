@@ -70,6 +70,7 @@ public class XIeCommerce3RQ extends SlingAllMethodsServlet{
 		
 		out.println(postPacket.toString());
 		out.println("Hello World : Jenkins auto deploymen 33333");
+		out.println("Check done");
 		
 	    AccessTokenResponsePacket accessTokenResponsePacket = AccessTokenUtility.GetPostAccessToken(strGUID, strPSK, strURL, postPacket);
 	   if (!(accessTokenResponsePacket.getRequestError() + "").equals("null")) {
