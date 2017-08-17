@@ -33,7 +33,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	    
 	
-        <crx.host>13.126.116.153</crx.host>
+        <!--<crx.host>13.126.116.153</crx.host>
         <crx.port>4502</crx.port>
         <crx.username>admin</crx.username>
         <crx.password>admin</crx.password>
@@ -42,7 +42,7 @@
         <publish.crx.username>admin</publish.crx.username>
         <publish.crx.password>admin</publish.crx.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
   
     
     <maven.compiler.source>1.7</maven.compiler.source>
