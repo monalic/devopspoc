@@ -47,8 +47,14 @@ public class XIeCommerce3RQ extends SlingAllMethodsServlet{
 		String strURL = "https://qaapp02.xisecurenet.com/diecomm";
 		//String strURL = "https://prdapp02.xisecurenet.com/diecomm";
 		
-		
-		
+		/*
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		String strURL = "https://qaapp02.xisecurenet.com/diecomm"
+		*/
 		logger.info("strGUID - " + strGUID);
 		logger.info("strPSK - " + strPSK);
 		logger.info("strURL - " + strURL);
